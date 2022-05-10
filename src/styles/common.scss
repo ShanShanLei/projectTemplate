@@ -1,0 +1,15 @@
+@mixin background-img($imgUrl) {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  background-image: url($imgUrl);
+}
+
+@function vw($width) {
+  @return ($width / 1920 * 100vw);
+}
+
+@function vh($height) {
+  @return ($height / 1080 * 100vh);
+}

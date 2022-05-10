@@ -1,0 +1,4 @@
+# 忽略打包的文件
+dist
+# 忽略安装的node模块
+node_modules
